@@ -1,0 +1,22 @@
+{
+  "name": "foobot-twitter",
+  "version": "1.0.0",
+  "description": "Twitter bot for Mortimer",
+  "main": "index.js",
+  "dependencies": {
+    "amqplib": "^0.5.1",
+    "async": "^2.1.5",
+    "node-schedule": "^1.2.0",
+    "rewire": "^2.5.2",
+    "twitter": "^1.7.0"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  },
+  "scripts": {
+    "test": "mocha",
+    "start": "node index"
+  },
+  "author": "Brycen Dorsay",
+  "license": "ISC"
+}
