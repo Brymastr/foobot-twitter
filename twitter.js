@@ -51,7 +51,7 @@ exports.scheduleTweet = () => {
       interval: 2000,
       errorFilter: err => err === 187
     }, (cb, results) => {
-      this.sendTweet(require('../strings').$('tweet'))
+      this.sendTweet(require('./strings').$('tweet'))
         .then(tweet => {
           log.info(`Tweet sent: ${tweet}`);
           cb(tweet);
