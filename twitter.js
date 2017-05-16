@@ -51,6 +51,7 @@ exports.scheduleTweet = () => {
       interval: 2000,
       errorFilter: err => err === 187
     }, (cb, results) => {
+      console.log('tweet scheduled');
       this.sendTweet(require('./strings').$('tweet'))
         .then(tweet => {
           log.info(`Tweet sent: ${tweet}`);
