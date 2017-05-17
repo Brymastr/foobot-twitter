@@ -31,8 +31,8 @@ function sendTweet(status) {
 
 async function scheduleTweet() {
   let rule = new schedule.RecurrenceRule();
-  rule.hour = 10;
-  rule.minute = 30;
+  // rule.hour = 10;
+  // rule.minute = 30;
 
   schedule.scheduleJob(rule, async () => {
     let tweet = strings.$('tweet');
