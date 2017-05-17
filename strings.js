@@ -1,4 +1,5 @@
 exports.tweet = [
+  "I am foobot",
   "Foobot rises",
   "Everyone has a Mortimer in their home",
   "A Morty never dies",
